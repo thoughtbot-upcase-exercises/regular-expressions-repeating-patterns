@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+# Install any gem dependencies
+bundle install
+
+# Make binstubs available for those that use the git/safe trick
+mkdir -p .git/safe
+
+echo
+echo
+
+# Output the README which should serve as a good introduction
+cat README.md
+
+echo
+echo
