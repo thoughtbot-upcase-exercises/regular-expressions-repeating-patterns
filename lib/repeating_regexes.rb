@@ -1,7 +1,8 @@
 # Implement the below functions in order.
 module RepeatingRegexes
   # Returns a regex that matches a string that has an "a" followed by any number
-  # of "z"s.
+  # of "z"s, followed by another "a".
+  #
   # It should match:
   #   * aza
   #   * azzzzzzzzzza
@@ -11,6 +12,7 @@ module RepeatingRegexes
   end
 
   # Returns a regex that matches a string that has "z" in it at least once.
+  #
   # It should match:
   #   * abcdz
   #   * zzzzzz
@@ -22,6 +24,7 @@ module RepeatingRegexes
 
   # Returns a regex that matches a string that has "a", then a possible "z",
   # then "a".
+  #
   # It should match:
   #   * aza
   #   * aa
